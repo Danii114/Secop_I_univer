@@ -8,6 +8,7 @@ import requests
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta, date
+from zoneinfo import ZoneInfo
 from sentence_transformers import SentenceTransformer, util
 from rank_bm25 import BM25Okapi
 from email.mime.multipart import MIMEMultipart
@@ -166,7 +167,7 @@ print("=" * 60)
 print(f"  🚀 PIPELINE SECOP I — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
 print("=" * 60)
 
-hoy        = datetime.now()
+hoy = datetime.now(ZoneInfo("America/Bogota"))
 inicio     = (hoy - timedelta(days=DIAS_ATRAS)).replace(hour=0,  minute=0,  second=0)
 fin        = (hoy - timedelta(days=1)).replace(         hour=23, minute=59, second=59)
 inicio_str = inicio.strftime("%Y-%m-%dT%H:%M:%S")

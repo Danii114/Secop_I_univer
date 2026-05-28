@@ -28,6 +28,7 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 
 EMAIL_TO = [
     "danimorav05@gmail.com",
+    "cjob.9410@gmail.com",
 ]
 
 

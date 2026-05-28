@@ -28,7 +28,9 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 
 EMAIL_TO = [
     "danimorav05@gmail.com",
+    "cjob.9410@gmail.com",
 ]
+
 
 URL           = "https://www.datos.gov.co/resource/f789-7hwg.json"
 ARCHIVO_EXCEL = f"alertas_secop_{date.today()}.xlsx"

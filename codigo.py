@@ -27,7 +27,6 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 
 EMAIL_TO = [
     "danimorav05@gmail.com",
-    "cjob.9410@gmail.com",
 ]
 
 URL           = "https://www.datos.gov.co/resource/f789-7hwg.json"
@@ -41,101 +40,65 @@ BM25_MIN_SCORE      = 4.0
 # 🔹 QUERIES SEMÁNTICAS
 # =========================================================
 QUERIES = [
-
-    # Ciencia e innovación
-    "convenio universidad investigacion cientifica",
-    "proyecto ciencia tecnologia innovacion universidad",
-    "transferencia tecnologica universidad",
+    # Educación
+    "fortalecimiento academico pruebas saber estudiantes",
+    "capacitacion docentes instituciones educativas",
+    "acompanamiento pedagogico educacion media",
+    "competencias academicas pruebas icfes",
 
     # Educación superior
-    "convenio interadministrativo institucion educacion superior",
-    "fortalecimiento academico pruebas saber",
-    "capacitacion academica estudiantes docentes",
-    "programa educativo con universidad",
+    "convenio educacion superior universidad",
+    "convenio universidad institucion educativa",
+    "programa academico universidad",
 
-    # TIC
-    "licenciamiento software plataforma educativa",
+    # Tecnología educativa
+    "software educativo plataforma academica",
+    "licenciamiento software educativo",
     "sistema informacion academico",
-    "desarrollo tecnologico universitario",
 
-    # Infraestructura especializada
-    "estudios y diseños especializados",
-    "interventoria tecnica especializada",
-    "consultoria tecnica universitaria",
+    # Investigación
+    "investigacion cientifica universidad",
+    "ciencia tecnologia innovacion universidad",
+    "transferencia tecnologica academia",
 
-    # Salud / laboratorio
-    "servicios especializados salud publica",
-    "laboratorio universitario",
-    "seguridad y salud en el trabajo",
-
-    # Cultura / extensión
-    "divulgacion cientifica academia",
-    "feria libro universidad",
-
+    # Extensión
+    "bienestar universitario estudiantes",
+    "practicas academicas universitarias",
 ]
+
 # =========================================================
 # 🔹 KEYWORDS BM25
 # =========================================================
-
 KEYWORDS_BM25 = [
 
-    # =========================================
-    # UNIVERSIDADES
-    # =========================================
-
-    "universidad",
-    "universidad publica",
-    "institucion educacion superior",
-    "educacion superior",
-    "institucion",
-
-    # =========================================
-    # EDUCACIÓN
-    # =========================================
-
+    # Educación
     "fortalecimiento academico",
-    "calidad educativa",
     "pruebas saber",
     "simulacros icfes",
     "acompanamiento pedagogico",
     "capacitacion docentes",
-    "formacion docentes",
     "competencias academicas",
 
-    # =========================================
-    # INVESTIGACIÓN
-    # =========================================
+    # Educación superior
+    "educacion superior",
+    "universidad",
+    "universitaria",
+    "institucion educativa",
 
-    "investigacion cientifica",
-    "ciencia tecnologia innovacion",
-    "desarrollo tecnologico",
-    "transferencia tecnologica",
-    "innovacion tecnologica",
-
-    # =========================================
-    # TIC
-    # =========================================
-
+    # Tecnología educativa
+    "software educativo",
     "plataforma academica",
     "sistema academico",
-    "software educativo",
-    "licenciamiento academico",
+    "licenciamiento software",
 
-    # =========================================
-    # EXTENSIÓN
-    # =========================================
+    # Investigación
+    "investigacion cientifica",
+    "ciencia tecnologia innovacion",
+    "transferencia tecnologica",
 
-    "extension universitaria",
-    "practicas universitarias",
+    # Extensión
+    "practicas academicas",
     "bienestar universitario",
-
-    # =========================================
-    # CONSULTORÍA
-    # =========================================
-
-    "consultoria especializada",
-    "estudios especializados",
-    "interventoria especializada",
 
 ]
 # =========================================================

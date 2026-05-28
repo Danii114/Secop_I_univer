@@ -31,7 +31,7 @@ EMAIL_TO = [
 
 URL           = "https://www.datos.gov.co/resource/f789-7hwg.json"
 ARCHIVO_EXCEL = f"alertas_secop_{date.today()}.xlsx"
-DIAS_ATRAS    = 4
+DIAS_ATRAS    = 5
 
 SEMANTICA_TOP_K     = 0     
 SEMANTICA_MIN_SCORE = 0.60

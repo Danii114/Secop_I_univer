@@ -1,0 +1,9 @@
+```txt
+pandas
+numpy
+requests
+openpyxl
+torch
+sentence-transformers
+rank-bm25
+```

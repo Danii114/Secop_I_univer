@@ -1,1 +1,0 @@
-# Secop_I_univer
